@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/sherlockLogin.js" defer></script>
+    <link href="../css/sherlockLogin.css" rel="stylesheet">
+    <title>LOGIN</title>
+</head>
+<body>
+
+
+
+    <!-- login -->
+    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+    <div id="id01" class="modal">
+    
+    <form onsubmit="login()" class="modal-content animate" method="post">
+        <div class="imgcontainer">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+        </div>
+
+        <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input id="name" type="text" placeholder="Enter Username" name="uname" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input id="password" type="password" placeholder="Enter Password" name="psw" required>
+            
+        <button type="submit" id="button_log">Login</button>
+        </div>
+
+        <div class="container" style="background-color:#f1f1f1">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        </div>
+    </form>
+    </div>
+
+
+<!-- signup -->
+    <button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Signup</button>
+
+    <div id="id02" class="modal">
+
+    <form onsubmit="sign_up()" class="modal-content animate" method="post">
+        <div class="imgcontainer">
+        <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+        </div>
+
+        <div class="container">
+        <label for="uname"><b>name</b></label>
+        <input id="name2" type="text" placeholder="Enter Username" name="uname" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input id="password2" type="password" placeholder="Enter Password" name="psw" required>
+<!-- 
+        <label for="psw"><b>psw-repeat</b></label>
+        <input id="psw-repeat" type="password" placeholder="Enter Password" name="psw" required> -->
+            
+        <button type="submit" id="button_sign">Sign up</button>
+        </div>
+
+        <div class="container" style="background-color:#f1f1f1">
+        <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+        </div>
+    </form>
+    </div>
+</body>
+</html>

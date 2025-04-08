@@ -1,0 +1,180 @@
+body{
+width: auto;
+height: auto;
+align-content: center;
+margin: auto auto auto auto;
+background-image: url("../picture/background.jpg");
+display: flex;
+flex-direction: row;
+}
+
+#choosePicture{
+  width: 29ch;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  direction: rtl;
+  position: relative;
+  top: 3ch;
+  right: 3ch;
+  align-items: center;
+}
+
+label{
+  font-family:  sans-serif;
+  font-size: 1.8ch;
+  font-weight: bold;
+}
+
+legend{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  color: rgb(65, 9, 9);
+  border: black;
+}
+
+.chooses{
+  margin-left: 2ch;
+}
+
+fieldset{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.radio{
+  width: 2.5ch;
+  height: 2.5ch;
+}
+
+#ok{
+  width: 19ch;
+  height: 4ch;
+  position: relative;
+  top: 3ch;
+  background: #89d9f3;
+  border-color: #19b1e4;
+
+}
+
+#boardGame{
+    width: 87ch;
+    height: 117ch;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    position: relative;
+    justify-items: center;
+    margin: auto auto auto auto;
+}
+
+.card{
+  width: 15ch;
+  height: 25ch;
+  position: relative;
+  padding: 4ch 4ch 4ch 4ch;
+  border-radius: 3.5ch;
+  backface-visibility: hidden; 
+  transform-style: preserve-3d; 
+  transition: transform .5s; 
+}
+
+
+
+#p{
+  position: absolute;
+  top: 70%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+
+img{
+  width: 15cw;
+  height: 25ch;
+  border-radius: 3.5ch;
+}
+
+#c1{
+  padding: 3ch 0ch 0ch 0ch;
+}
+#c2{
+  transform: rotateZ(45deg); 
+  padding: 10ch 0ch 0ch 12ch;
+}
+#c5{
+  transform: rotateZ(90deg); 
+  padding: 0ch 0ch 16ch 2ch;
+}
+#c8{
+  transform: rotateZ(135deg); 
+  padding: 0ch 11ch 0ch 0ch;
+}
+#c7{
+  transform: rotateZ(180deg); 
+  padding-top: 10ch;
+}
+#c6{
+  transform: rotateZ(225deg); 
+  padding: 21ch 0ch 0ch 18ch;
+}
+#c3{
+  transform: rotateZ(270deg); 
+  padding-bottom: 15ch;
+}
+#c0{
+  transform: rotateZ(315deg); 
+  padding: 11ch 12ch 0ch 0ch;
+}
+#c4{
+  position: relative;
+  text-align: center;
+  color: white;
+  padding: 8ch 2ch 0ch 0ch;
+}
+.back{
+  position: absolute;
+}
+
+.sherlock{
+  width:20ch;
+  transition: width 5s;
+}
+
+.navTools{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.tool{
+  width: 8ch;
+  height: 8ch;
+  border-radius: 10%;
+  align-content: center;  
+}
+.imgTool{
+  width: 8ch;
+  height: 8ch;
+  opacity: 40%;
+  border-radius: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
